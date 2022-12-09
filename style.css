@@ -13,7 +13,7 @@ body{
 .navi{
     background:linear-gradient(45deg,lightcyan,skyBlue,deepSkyBlue);
     padding:20px;
-    margin-top: 10px;
+  
 
 }
 .satur{
@@ -41,4 +41,16 @@ div a{
    font-size:x-small;
     background: radial-gradient(white,pink,hotpink);
     margin-top: 10px;
+}
+span{
+    color: gold;
+}
+.btn-p{
+    background:linear-gradient(45deg, white,red,white);
+    filter:grayscale(30%);
+}
+.btn{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
 }
