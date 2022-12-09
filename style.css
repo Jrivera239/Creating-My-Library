@@ -8,6 +8,7 @@ h1{
 }
 body{
     text-align: center;
+    background-image:url(space.png) ;
 }
 .navi{
     background:linear-gradient(45deg,lightcyan,skyBlue,deepSkyBlue);
