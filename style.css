@@ -54,3 +54,7 @@ span{
     width: 120px;
     height: 30px;
 }
+.inlineB{
+    background: radial-gradient(yellow, rgba(181, 177, 177, 0.639), yellow);
+    display: inline-block;
+}
