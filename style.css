@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    background:linear-gradient(lightcyan,skyBlue, deepSkyBlue);
+    padding: 35px;
+}
+body{
+    text-align: center;
+}
+.navi{
+    background:linear-gradient(45deg,lightcyan,skyBlue,deepSkyBlue);
+    padding:20px;
+    margin-top: 10px;
+
+}
+.satur{
+    filter: saturate(75%);
+    background:linear-gradient(30deg,rgb(39, 39, 255),skyblue,lightcyan);
+    text-align: center;
+
+}
