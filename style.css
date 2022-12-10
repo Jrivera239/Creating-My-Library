@@ -2,6 +2,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+.container{
+    background:linear-gradient(30deg,lightsalmon,white,skyBlue);
+}
 h1{
     background:linear-gradient(lightcyan,skyBlue, deepSkyBlue);
     padding: 35px;
@@ -22,7 +25,7 @@ body{
     text-align: center;
 
 }
-div a{
+.ADT{
     display: inline;
     border: solid 2px black;
     padding: 4px;
@@ -42,7 +45,7 @@ div a{
     background: radial-gradient(white,pink,hotpink);
     margin-top: 10px;
 }
-span{
+.Sun{
     color: gold;
 }
 .btn-p{
@@ -57,4 +60,15 @@ span{
 .inlineB{
     background: radial-gradient(yellow, rgba(181, 177, 177, 0.639), yellow);
     display: inline-block;
+}
+.bottomm{
+    position: relative;
+    top: 20px;
+}
+.clickme{
+    background: #fdefdf;
+    position: absolute;
+    right: 0px;
+    color:blue;
+    text-decoration: none;
 }
