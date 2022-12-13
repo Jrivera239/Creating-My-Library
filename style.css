@@ -248,4 +248,56 @@ margin:10px;
 padding:10px;
 
 }
+.fnwcontainer{
+    border: 3px solid #808080;
+    width: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.fnwItem{
+    border: solid 3px  red;
+    margin: 20px;
+}
+
+.fwContainer{
+    border: 3px solid #808080;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fwItem{
+    border: solid 3px  red;
+    padding: 10;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
