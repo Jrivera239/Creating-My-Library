@@ -386,9 +386,71 @@ span{
     color: rgb(255, 0, 0);
     text-decoration:underline;
 }
+.boyboy{
+    border: solid 2px;
+    background-color: #f2fff7;
+    margin: 5px;
+    padding: 5px;
+    
+ }
 
+.boyboy1{
+    flex-shrink: 1;
+    flex-basis:200px;
+    width: 200px;
+    margin: auto;
+    border: solid 2px;
+    background-color: #1ead55;
+ }
 
+.boyboy2{
+    flex-shrink: 1;
+    width: 300px;
+    flex-basis:200px;
+     background-color: #34fd81;
+     border: solid 1px;
+     margin: auto;
+}
 
+.boyboy3{
+    width: 400px;
+    margin: auto;
+    flex-shrink: 01;
+    flex-basis:200px;
+    background-color: #66ffa3;
+    border: solid 2px;
+    text-align: center;
+    }
+.containerlentis{
+
+display:flex;
+width:fit-content;
+
+}
+.sectionmenu{
+ background-color: rgb(211, 42, 237);
+    flex-shrink: 1;
+    border: solid 2px;
+    padding: 20px;
+
+}
+
+.sectioncontainer{
+    border: solid 2px;
+    padding: 10px;
+    flex-shrink: 1;
+    background-color: rgb(235, 157, 255);
+
+}
+
+.secmen{
+ 
+    display: inline-block;
+    color: white;
+    background-color: rgb(211, 42, 237);
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
