@@ -17,6 +17,8 @@ h1{
 .h2{
     border: 5px solid;
     align-items: center;
+    display: grid;
+    grid-row: auto;
   
 }
 body{
@@ -452,11 +454,53 @@ width:fit-content;
     flex-wrap: wrap;
 }
 
+.gridcont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color:#5ca4fb;
+    gap: 4px 9px;
+}
 
+.griditem{
+    background-color: #bfdaf9;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
 
+.containersb{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas: 
+    "header header header"
+    "photo main sidebar"
+    "photo main sidebar"
+    "photo footer sidebar";
 
+}
+.item{
+    background-color: #1e99f1;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
 
+.header{
+    grid-area: header;
+}
+.sidebar{
+    grid-area: sidebar;
+}
 
+.main{
+    grid-area: main;
+}
+.footer{
+    grid-area: footer;
+}
+.photo{
+    grid-area: photo;
+}
 
 
 
